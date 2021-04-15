@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F5FE"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="316dp"
+        android:layout_height="517dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textDaftar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.154"
+            app:srcCompat="@drawable/profile" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tEmail"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:hint="@string/eemail"
+            app:layout_constraintBottom_toBottomOf="@+id/textDaftar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/inputmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tPassword"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:hint="@string/epass"
+            app:layout_constraintBottom_toBottomOf="@+id/textDaftar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:passwordToggleEnabled="true"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/inputpass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/bLogIn"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:text="@string/BLogIn"
+            android:textColor="#82B1FF"
+            android:textColorHighlight="#FF9E80"
+            android:textSize="16sp"
+            app:backgroundTint="#E3F2FD"
+            app:layout_constraintBottom_toBottomOf="@+id/textDaftar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.897"
+            app:rippleColor="#E3F2FD" />
+
+        <TextView
+            android:id="@+id/textDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum Terdaftar?"
+            android:onClick="BelumTerdaftar"
+            android:textColor="#82B1FF"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.933" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

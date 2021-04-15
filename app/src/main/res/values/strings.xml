@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ExercisePAM</string>
+    <string name="tEmail">Email</string>
+    <string name="tPassword">Password</string>
+    <string name="BLogIn">LOGIN</string>
+    <string name="ldaftar">Pendaftaran</string>
+    <string name="enama">Masukkan Nama</string>
+    <string name="ealamat">Masukkan Alamat</string>
+    <string name="eemail">Masukkan Email</string>
+    <string name="epass">Masukkan Password</string>
+    <string name="erepass">Masukkan Password Kembali</string>
+    <string name="lihatdata">Lihat Data</string>
+    <string name="lihatnomor">Lihat Nomor</string>
+    <string name="datakontak">Data Kontak</string>
+    <string name="namaitem">Nama Item</string>
+    <string name="detailkontak">Detail Kontak</string>
+    <string name="nama">Nama</string>
+    <string name="notelp">Nomor Telepon</string>
+    <string name="Islam">Islam</string>
+    <string name="Hindu">Hindu</string>
+    <string name="Penganut">Penganut Kepercayaan</string>
+    <string name="katolik">Katolik</string>
+    <string name="budha">Budha</string>
+    <string name="kristen">Kristen</string>
+    <string name="konghucu">Konghucu</string>
+    <string name="bdaftar">Daftar</string>
+    <string name="bbatal">Batal</string>
+</resources>
